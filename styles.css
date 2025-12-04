@@ -20,3 +20,11 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
+
+.container {
+  display: grid;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
