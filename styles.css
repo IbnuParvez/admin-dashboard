@@ -7,6 +7,8 @@
 	--yellow2: #ffbf00;
 	--grey: #dedede;
 	--card-shadow: 3px 3px 5px -1px rgb(165, 165, 165);
+	--white: #ffffff;
+	--gray-text: #666666;
 }
 
 *,
@@ -203,10 +205,10 @@ body {
 .main {
   grid-area: main;              /* from first block */
   display: grid;
-  grid-template-columns: 6fr 2fr;   
+  grid-template-columns: 6fr 2fr;
   padding: 25px;
   gap: 20px;
-  background-color: #dddddd;
+  background-color: var(--white);
   overflow-y: auto;             /* from first block */
 }
 
