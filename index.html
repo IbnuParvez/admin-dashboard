@@ -9,23 +9,35 @@
 </head>
 <body>
   <div class="container">
-      <header>
-        <div class="search">
-          <img src="./images/magnify.svg" alt="search">
-        <input type="text" id="search"></div>
-        <div class="notification">
-          <img src="./images/bell.svg" alt="notification">
-          <img src="./images/panda.svg" alt="profile-pic">
-          <p>Abubakr Parvez</p>
+      <div class="header">
+    <!-- Switch this to make use of grid 2 x 2 -->
+    <div class="search">
+        <img src="./images/magnify.svg" alt="search icon">
+        <input type="search" name="search" id="search">
+    </div>
+
+    <div class="profile">
+        <img src="./images/bell.svg" alt="notification icon">
+        <img src="./images/panda.svg" alt="profile-pic">
+        <p class="name">Abubakr Parvez</p>
+    </div>
+
+    <div class="greeting">
+        <div class="profile">
+            <img src="./images/panda.svg" alt="user profile icon">
+            <div>
+                <p>Hi there,</p>
+                <p class="name">Abubakr Parvez (@abubakr)</p>
+            </div>
         </div>
-        <div>
-          <img src="./images/panda.svg" alt="profile-pic">
-          <p>Hi there,<br> Abubakr Parvez</p>
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
-        </div>
-      </header>
+    </div>
+
+    <div class="buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+    </div>
+</div>
 
       <div class="sidebar">
         <nav>
@@ -73,89 +85,182 @@
       </div>
 
       <div class="main">
-        <div class="Projects">
-            <h3>Your Projects</h3>
-            
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+    <div class="column-one">
+        <h2>Your Projects</h2>
+        <div class="projects-container">
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quidem ea velit magni laudantium quaerat excepturi molestias quia? Blanditiis adipisci quibusdam saepe totam iusto ipsa facere accusantium omnis consequatur corrupti.</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
             </div>
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet eum nisi harum voluptatum quisquam officia officiis cupiditate, obcaecati porro neque, mollitia asperiores commodi.</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
             </div>
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex porro deserunt quod.</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
             </div>
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae repudiandae vel explicabo quidem quod delectus voluptate officia ab doloribus nihil tempora, labore facilis maiores asperiores minima reiciendis tenetur officiis!</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
             </div>
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero vitae itaque sapiente placeat magnam, eos quis error! Tempora dolores, ullam beatae, iusto ratione sed in harum quidem assumenda a ipsa?</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
             </div>
-            <div class="single">
-              <h4>Normal Projects</h4>
-              <p>Sed tempus ut lactus ut sdckdj.Scnjkfwev cdnjkf dhu eidjewoi</p>
-              <img src="./images/star-outline.svg">
-              <img src="./images/clock.svg">
-              <img src="./images/share.svg">
+
+            <div class="card">
+                <div>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="actions">
+                    <button class="action">
+                        <img src="./images/star-outline.svg" alt="favorite link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/clock.svg" alt="view later link">
+                    </button>
+                    <button class="action">
+                        <img src="./images/share.svg" alt="share link">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="column-two">
+        <div class="row">
+            <h2>Announcements</h2>
+            <div class="announcements-list">
+                <div class="announcement">
+                    <div>
+                        <h3>Site Maintenance</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste minima architecto aut dolores magni sed consequuntur eveniet doloremque veniam ea, eius, earum nihil libero corrupti voluptatibus nam asperiores eaque inventore?</p>
+                    </div>
+                </div>
+                <div class="announcement">
+                    <div>
+                        <h3>Community Share Day</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="announcement">
+                    <div>
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit facilis animi fuga beatae?</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="Announcements">
-            <div class="single-announcement">
-              <h4>Site maintenance</h4>
-              <p>Vesti cdshv vsnlkfvjioefvjla</p>
-            </div>
-            <div class="single-announcement">
-              <h4>Community Share Day</h4>
-              <p>Vesti cdshv vsnlkfvjioefvjla</p>
-            </div>
-            <div class="single-announcement">
-              <h4>Updated Privacy Policy</h4>
-              <p>Vesti cdshv vsnlkfvjioefvjla</p>
+        <div class="row">
+            <h2>Trending</h2>
+            <div class="trending-list">
+                <div class="user">
+                    <img src="./images/alien.svg" alt="user profile icon">
+                    <div>
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <img src="./images/panda.svg" alt="user profile icon">
+                    <div>
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <img src="./images/safe.svg" alt="user profile icon">
+                    <div>
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <img src="./images/calendar-check.svg" alt="user profile icon">
+                    <div>
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="Trending">
-          <div class="single-profile">
-            <img src="./images/alien.svg">
-            <p>@Alien, world peace broker<p>
-          </div>
-          <div class="single-profile">
-            <img src="./images/clock.svg">
-            <p>@Morgan, world peace avenger<p>
-          </div>
-          <div class="single-profile">
-            <img src="./images/ferry.svg">
-            <p>@Boss, ultimate weapon<p>
-          </div>
-          <div class="single-profile">
-            <img src="./images/calendar-check.svg">
-            <p>@NOthing, world peace broker<p>
-          </div>
-
-        </div>
-      </div>
-
+    </div>
+</div>
   </div>
 </body>
 </html>
