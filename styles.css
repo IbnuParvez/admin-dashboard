@@ -1,6 +1,22 @@
-.my-icon {
-  width: 40px;   /* change size */
-  height: 40px;
-  fill: #232369; /* change color */
+:root {
+	--blue: #128ee6;
+	--yellow: #fffd98;
+	--yellow2: #ffbf00;
+	--grey: #dedede;
+	--card-shadow: 3px 3px 5px -1px rgb(165, 165, 165);
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
